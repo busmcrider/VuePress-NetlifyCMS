@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: '/VuePress-NetlifyCMS/',
+//  base: '/VuePress-NetlifyCMS/',
   theme: 'succinct',
   globalUIComponents: [
     'ThemeManager'
