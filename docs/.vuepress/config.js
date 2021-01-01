@@ -23,7 +23,11 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['script', {
+      src: "https://cdn.jsdelivr.net/npm/netlify-identity-widget@1.9.1/build/netlify-identity-widget.min.js",
+      async: true,
+      defer: true}]
   ],
 
   /**
