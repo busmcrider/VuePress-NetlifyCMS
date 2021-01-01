@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: '/deploy/',
+//  base: '/deploy/',
   theme: 'succinct',
   globalUIComponents: [
     'ThemeManager'
