@@ -1,6 +1,13 @@
 {
   "name": "vuepress-netlifycms",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "David Spangenberg & Isaac Allen Projects",
+  "main": "index.js",
+  "authors": {
+    "name": "David Spangenberg & Isaac Allen",
+    "email": "busmcrider@gmail.com"
+  },
+  "repository": "/VuePress-NetlifyCMS",
   "private": true,
   "licenses": [
     {
@@ -13,11 +20,12 @@
     }
   ],
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.5.3",
+    "vuepress-theme-succinct": "^1.6.4"
   },
   "prettier": {
     "singleQuote": true,
