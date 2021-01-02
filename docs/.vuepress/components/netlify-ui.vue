@@ -1,3 +1,3 @@
 <template>
-<div data-netlify-identity-menu></div>
+<div data-netlify-identity-button></div>
 </template>
