@@ -13,3 +13,8 @@ features:
   details: And makes for happier developers
 footer: Made by David Spangenberg & Isaac Allen with ❤️
 ---
+<netlify-widget />
+<netlify-ui />
+<ClientOnly>
+  <netlify-handler />
+</ClientOnly>
